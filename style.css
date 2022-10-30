@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700;900&display=swap');
+
 body{
     background-color: beige;
     font-family: sans-serif;
     margin: 0;
+    font-family: "Poppins", sans-serif;
 }
 
 .contenedor{
@@ -49,10 +52,17 @@ margin: 5px;
     border-radius: 100%;
     margin-right: 10px;
 }
+h2{
+    text-transform: uppercase;
+}
 a{
     text-decoration: none;
     color: white;
-    margin: 5px;
+    margin: 10px;
+    text-transform: uppercase;
+}
+a:hover{
+    color: wheat;
 }
 @media (max-width:730px){
 header{
